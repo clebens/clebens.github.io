@@ -2,16 +2,25 @@
     name: "Portland Code School"
     date: "2014"
     title: "Javascript Full Stack Course"
-    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    details: ["Learned to use a variety of Javascript libraries and tools, including: Node.JS, Express.JS, jQuery, Backbone.JS, Handlebars",
+                'Capstone Project: NBA Food Fight (<a href="http://bit.ly/nbaff">http://bit.ly/nbaff</a>)
+                    <ul>
+                        <li>allows users to play along with in-arena awards at NBA games</li>
+                        <li>Node.JS / Orchestrate (NoSQL) backend, Backbone.js frontend</li>
+                    </ul>']
 
 -   prefix: "lewis_and_clark"
     name: "Lewis and Clark Law School"
     date: "2005-2008"
     title: "Juris Doctor"
-    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    details: ["Certificate in Intellectual Property Law",
+                "Curriculum primarily focused on Patent, Copyright, Licensing, and other aspects of Intellectual Property law",
+                "Technology Committe Representative, Student Bar Association"]
 
 -   prefix: "iowa_state"
     name: "Iowa State University"
     date: "2000-2005"
     title: "B.S., Computer Engineering"
-    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    details: ["Curriculum focused on combination of Software Development and Digital Logic design",
+                "Included fundamental Computer Science curriculum, including data structures and algorithms classes in C",
+                "Included fundamental Electrical Engineering courses, including Circuits and Signal Processing"]

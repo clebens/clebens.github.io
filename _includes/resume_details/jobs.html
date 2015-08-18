@@ -2,14 +2,19 @@
   <h2><div class="capital">P</div>rofessional <div class="capital">E</div>xperience</h2>
   </div>
 
+  {% assign first_job = true %}
   {% for job in site.data.jobs %}
   <div class="row">
    <div class="col-sm-3">
       <h3>{{ job.date }}</h3>
     </div>
-    <div class="col-sm-8">
-      <h4>{{ job.name }}</h4>
-      <h5>{{job.title}}</h5>
+    <div class="col-sm-8"><h4
+        id="{{job.prefix}}-name"
+        {% if first_job %}
+          class="first-job"
+          {% assign first_job = false %}
+        {% endif %}>{{ job.name }}</h4>
+      <h5 id="{{job.prefix}}-title">{{job.title}}</h5>
     </div>
     <div class="col-sm-1">
       <div id="{{job.prefix}}-show" class="glyphicon glyphicon-menu-down"></div>
@@ -20,15 +25,30 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="{{job.prefix}}-details">
-      {{ job.details }}
+      <ul>
+        {% for detail in job.details %}
+        <li>{{ detail }}</li>
+        {% endfor %}
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("{{ job.prefix }}");
+          util.setup_display_toggle("{{ job.prefix }}");
+
+          /* Convert Names to Small Caps */
+           small_caps = util.small_caps(
+                  $("#{{job.prefix}}-name")
+                  .html()
+                  .trim());
+
+           $("#{{job.prefix}}-name").html(small_caps);
+
         });
+
+
   </script>
 
   {% endfor %}

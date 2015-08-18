@@ -2,16 +2,20 @@
     name: "Mohr Intellectual Property Law Solutions"
     date: "2010-2014"
     title: "Patent Attorney"
-    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    details: ["USPTO Registration No. 59,781",
+                "Licensed in Oregon and California",
+                "Helped clients secure rights in patent, trademark, and copyright, including for software-based inventions"]
 
 -   prefix: "fraser_stryker"
     name: "Fraser Stryker PC LLO"
     date: "Summer 2007"
     title: "Summer Associate"
-    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    details: ["Worked within attorney team on a variety of civil matters in a 50+ attorney firm, providing written and oral reports on assigned projects",
+            "Researched legal issues using standard legal research tools, such as Westlaw and LexisNexis"]
 
 -   prefix: "nadler_brothers"
     name: "Nadler Brothers Company"
     date: "Summer 2007"
     title: "IT Specialist"
-    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    details: ["Entrusted with total responsibility for any and all IT-related issues",
+                "Installed Linux gateway and e-mail server"]

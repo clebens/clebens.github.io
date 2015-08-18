@@ -42,13 +42,18 @@
   </div>
 
   
+  
   <div class="row">
    <div class="col-sm-3">
       <h3>2010-2014</h3>
     </div>
-    <div class="col-sm-8">
-      <h4>Mohr Intellectual Property Law Solutions</h4>
-      <h5>Patent Attorney</h5>
+    <div class="col-sm-8"><h4
+        id="mohrip-name"
+        
+          class="first-job"
+          
+        >Mohr Intellectual Property Law Solutions</h4>
+      <h5 id="mohrip-title">Patent Attorney</h5>
     </div>
     <div class="col-sm-1">
       <div id="mohrip-show" class="glyphicon glyphicon-menu-down"></div>
@@ -59,15 +64,34 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="mohrip-details">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul>
+        
+        <li>USPTO Registration No. 59,781</li>
+        
+        <li>Licensed in Oregon and California</li>
+        
+        <li>Helped clients secure rights in patent, trademark, and copyright, including for software-based inventions</li>
+        
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("mohrip");
+          util.setup_display_toggle("mohrip");
+
+          /* Convert Names to Small Caps */
+           small_caps = util.small_caps(
+                  $("#mohrip-name")
+                  .html()
+                  .trim());
+
+           $("#mohrip-name").html(small_caps);
+
         });
+
+
   </script>
 
   
@@ -75,9 +99,10 @@
    <div class="col-sm-3">
       <h3>Summer 2007</h3>
     </div>
-    <div class="col-sm-8">
-      <h4>Fraser Stryker PC LLO</h4>
-      <h5>Summer Associate</h5>
+    <div class="col-sm-8"><h4
+        id="fraser_stryker-name"
+        >Fraser Stryker PC LLO</h4>
+      <h5 id="fraser_stryker-title">Summer Associate</h5>
     </div>
     <div class="col-sm-1">
       <div id="fraser_stryker-show" class="glyphicon glyphicon-menu-down"></div>
@@ -88,15 +113,32 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="fraser_stryker-details">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul>
+        
+        <li>Worked within attorney team on a variety of civil matters in a 50+ attorney firm, providing written and oral reports on assigned projects</li>
+        
+        <li>Researched legal issues using standard legal research tools, such as Westlaw and LexisNexis</li>
+        
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("fraser_stryker");
+          util.setup_display_toggle("fraser_stryker");
+
+          /* Convert Names to Small Caps */
+           small_caps = util.small_caps(
+                  $("#fraser_stryker-name")
+                  .html()
+                  .trim());
+
+           $("#fraser_stryker-name").html(small_caps);
+
         });
+
+
   </script>
 
   
@@ -104,9 +146,10 @@
    <div class="col-sm-3">
       <h3>Summer 2007</h3>
     </div>
-    <div class="col-sm-8">
-      <h4>Nadler Brothers Company</h4>
-      <h5>IT Specialist</h5>
+    <div class="col-sm-8"><h4
+        id="nadler_brothers-name"
+        >Nadler Brothers Company</h4>
+      <h5 id="nadler_brothers-title">IT Specialist</h5>
     </div>
     <div class="col-sm-1">
       <div id="nadler_brothers-show" class="glyphicon glyphicon-menu-down"></div>
@@ -117,15 +160,32 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="nadler_brothers-details">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul>
+        
+        <li>Entrusted with total responsibility for any and all IT-related issues</li>
+        
+        <li>Installed Linux gateway and e-mail server</li>
+        
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("nadler_brothers");
+          util.setup_display_toggle("nadler_brothers");
+
+          /* Convert Names to Small Caps */
+           small_caps = util.small_caps(
+                  $("#nadler_brothers-name")
+                  .html()
+                  .trim());
+
+           $("#nadler_brothers-name").html(small_caps);
+
         });
+
+
   </script>
 
   
@@ -136,13 +196,19 @@
   </div>
 
   
+
+  
   <div class="row">
    <div class="col-sm-3">
       <h3>2014</h3>
     </div>
     <div class="col-sm-8">
-      <h4>Portland Code School</h4>
-      <h5>Javascript Full Stack Course</h5>
+      <h4 id="portland_code_school-name"
+          
+            class="first-school"
+            
+          >Portland Code School</h4>
+      <h5 id="portland_code_school-title">Javascript Full Stack Course</h5>
     </div>
     <div class="col-sm-1">
       <div id="portland_code_school-show" class="glyphicon glyphicon-menu-down"></div>
@@ -153,14 +219,27 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="portland_code_school-details">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul>
+      
+        <li>Learned to use a variety of Javascript libraries and tools, including: Node.JS, Express.JS, jQuery, Backbone.JS, Handlebars</li>
+      
+        <li>Capstone Project: NBA Food Fight (<a href="http://bit.ly/nbaff">http://bit.ly/nbaff</a>) <ul> <li>allows users to play along with in-arena awards at NBA games</li> <li>Node.JS / Orchestrate (NoSQL) backend, Backbone.js frontend</li> </ul></li>
+      
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("portland_code_school");
+          util.setup_display_toggle("portland_code_school");
+
+          /* Convert Names to Small Caps */
+          small_caps = util.small_caps(
+                  $("#portland_code_school-name")
+                  .html()
+                  .trim());
+          $("#portland_code_school-name").html(small_caps);
         });
   </script>
 
@@ -170,8 +249,9 @@
       <h3>2005-2008</h3>
     </div>
     <div class="col-sm-8">
-      <h4>Lewis and Clark Law School</h4>
-      <h5>Juris Doctor</h5>
+      <h4 id="lewis_and_clark-name"
+          >Lewis and Clark Law School</h4>
+      <h5 id="lewis_and_clark-title">Juris Doctor</h5>
     </div>
     <div class="col-sm-1">
       <div id="lewis_and_clark-show" class="glyphicon glyphicon-menu-down"></div>
@@ -182,14 +262,29 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="lewis_and_clark-details">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul>
+      
+        <li>Certificate in Intellectual Property Law</li>
+      
+        <li>Curriculum primarily focused on Patent, Copyright, Licensing, and other aspects of Intellectual Property law</li>
+      
+        <li>Technology Committe Representative, Student Bar Association</li>
+      
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("lewis_and_clark");
+          util.setup_display_toggle("lewis_and_clark");
+
+          /* Convert Names to Small Caps */
+          small_caps = util.small_caps(
+                  $("#lewis_and_clark-name")
+                  .html()
+                  .trim());
+          $("#lewis_and_clark-name").html(small_caps);
         });
   </script>
 
@@ -199,8 +294,9 @@
       <h3>2000-2005</h3>
     </div>
     <div class="col-sm-8">
-      <h4>Iowa State University</h4>
-      <h5>B.S., Computer Engineering</h5>
+      <h4 id="iowa_state-name"
+          >Iowa State University</h4>
+      <h5 id="iowa_state-title">B.S., Computer Engineering</h5>
     </div>
     <div class="col-sm-1">
       <div id="iowa_state-show" class="glyphicon glyphicon-menu-down"></div>
@@ -211,14 +307,29 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="iowa_state-details">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul>
+      
+        <li>Curriculum focused on combination of Software Development and Digital Logic design</li>
+      
+        <li>Included fundamental Computer Science curriculum, including data structures and algorithms classes in C</li>
+      
+        <li>Included fundamental Electrical Engineering courses, including Circuits and Signal Processing</li>
+      
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("iowa_state");
+          util.setup_display_toggle("iowa_state");
+
+          /* Convert Names to Small Caps */
+          small_caps = util.small_caps(
+                  $("#iowa_state-name")
+                  .html()
+                  .trim());
+          $("#iowa_state-name").html(small_caps);
         });
   </script>
 

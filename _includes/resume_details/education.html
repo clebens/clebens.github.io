@@ -2,14 +2,20 @@
   <h2><div class="capital">E</div>ducation</h2>
   </div>
 
+  {% assign first_school = true %}
+
   {% for school in site.data.education %}
   <div class="row">
    <div class="col-sm-3">
       <h3>{{ school.date }}</h3>
     </div>
     <div class="col-sm-8">
-      <h4>{{ school.name }}</h4>
-      <h5>{{school.title}}</h5>
+      <h4 id="{{school.prefix}}-name"
+          {% if first_school %}
+            class="first-school"
+            {% assign first_school = false %}
+          {% endif %}>{{ school.name }}</h4>
+      <h5 id="{{school.prefix}}-title">{{school.title}}</h5>
     </div>
     <div class="col-sm-1">
       <div id="{{school.prefix}}-show" class="glyphicon glyphicon-menu-down"></div>
@@ -20,14 +26,25 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-9">
       <div id="{{school.prefix}}-details">
-      {{ school.details }}
+      <ul>
+      {% for detail in school.details %}
+        <li>{{ detail }}</li>
+      {% endfor %}
+      </ul>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
         $(document).ready( function() {
-          setup_display_toggle("{{ school.prefix }}");
+          util.setup_display_toggle("{{ school.prefix }}");
+
+          /* Convert Names to Small Caps */
+          small_caps = util.small_caps(
+                  $("#{{school.prefix}}-name")
+                  .html()
+                  .trim());
+          $("#{{school.prefix}}-name").html(small_caps);
         });
   </script>
 
