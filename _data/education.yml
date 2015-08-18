@@ -5,8 +5,8 @@
     details: ["Learned to use a variety of Javascript libraries and tools, including: Node.JS, Express.JS, jQuery, Backbone.JS, Handlebars",
                 'Capstone Project: NBA Food Fight (<a href="http://bit.ly/nbaff">http://bit.ly/nbaff</a>)
                     <ul>
-                        <li>allows users to play along with in-arena awards at NBA games</li>
-                        <li>Node.JS / Orchestrate (NoSQL) backend, Backbone.js frontend</li>
+                        <li>Allows users to play along with in-arena awards at NBA games</li>
+                        <li>Node.JS / Orchestrate (NoSQL) back-end, Backbone.js front-end</li>
                     </ul>']
 
 -   prefix: "lewis_and_clark"
@@ -14,7 +14,7 @@
     date: "2005-2008"
     title: "Juris Doctor"
     details: ["Certificate in Intellectual Property Law",
-                "Curriculum primarily focused on Patent, Copyright, Licensing, and other aspects of Intellectual Property law",
+                "Curriculum focused on Patent, Copyright, Licensing, and other aspects of Intellectual Property law",
                 "Technology Committe Representative, Student Bar Association"]
 
 -   prefix: "iowa_state"
@@ -22,5 +22,5 @@
     date: "2000-2005"
     title: "B.S., Computer Engineering"
     details: ["Curriculum focused on combination of Software Development and Digital Logic design",
-                "Included fundamental Computer Science curriculum, including data structures and algorithms classes in C",
-                "Included fundamental Electrical Engineering courses, including Circuits and Signal Processing"]
+                "Completed a fundamental Computer Science curriculum, including courses on Data Structures and Algorithms in C/C++",
+                "Completed fundamental Electrical Engineering curriculum, including Circuits and Signal Processing"]

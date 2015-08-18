@@ -1,6 +1,6 @@
 -   name: "Javascript"
-    details: ["Backend development with Node.JS and Express.JS",
-                "Frontend development with jQuery and Backbone.JS"]
+    details: ["Back-end development with Node.JS and Express.JS",
+                "Front-end development with jQuery and Backbone.JS"]
 
 -   name: "C / C++"
     details: ["Worked with C / C++ extensively in core computer science courses during my undergraduate education",
@@ -11,13 +11,14 @@
     details: ["Developed applciation for controlling embedded ARM-based device"]
 
 -   name: "Ruby / Rails"
-    details: ["Completed coursework in Engineering Software as a Service (SaaS) through EdX, with assignments covering Ruby on Rails, Cucumber, and RSpec"]
+    details: ["Completed coursework in Engineering Software as a Service (SaaS) through EdX, with assignments covering Ruby on Rails, Cucumber, and RSpec",
+                "Contributed to Feedbin, an open source RSS reader built on Rails"]
 
 -   name: "Python"
-    details: ["Developed applications in the Cryptography I course through Coursera Artificial Intelligence course through EdX"]
+    details: ["Developed applications in online coursework, Cryptography I through Coursera and Artificial Intelligence through EdX"]
 
 -   name: "Scala"
-    details: ["Developed functional programs in coursework in Functional Programming Principles in Scala through Coursera", "Additional functional programming experience in SML and Racket in Coursera Programming Languages course"]
+    details: ["Developed functional programs in coursework in Functional Programming Principles in Scala through Coursera", "Additional functional programming experience in SML and Racket in the Programming Languages course on Coursera"]
 
 -   name: "Java"
     details: ["Developed a variety of applications in both my B.S. degree program and through indepedent coursework"]
