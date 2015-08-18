@@ -1,9 +1,18 @@
+---
+---
+
 /*******************************************************************************
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
-@import url(github-light.css);
+@import url(bootstrap.css);
+
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+$roboto: 'Roboto Condensed', sans-serif;
+
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -44,6 +53,19 @@ table {
   border-spacing: 0;
 }
 
+
+/*
+****************************************************************
+Color Scheme Variables
+******************************************************************
+*/
+
+$blue_header_bg:   #89aad3;
+$gray_bg: #212121;
+$white_bg: #f2f2f2;
+$red_font: #A73E3B;
+$gray_font: #3E3E3E;
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -51,9 +73,10 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: $white_bg;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: $roboto;
+  font-color: $gray_font;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -61,36 +84,44 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  color: $gray_font;
+  font-family: $roboto;
   letter-spacing: -1px;
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
 
 h1 {
   font-size: 36px;
   font-weight: 700;
+  text-transform: uppercase;
+  .capital {
+    font-size: 44px;
+  }
 }
 
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
+  font-weight: 700;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 18px;
+  color: $red_font;
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 18px;
+
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 p {
@@ -256,6 +287,17 @@ form {
   padding: 20px;
 }
 
+
+/*
+
+Utility Styles
+
+*/
+
+.hidden {
+  display: none;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -265,21 +307,36 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
-  margin: 0 auto;
+  max-width: 1140px;
+  padding: 5px 0px 0px 0px;
+  margin: 0px 75px 0px 0px;
+  overflow: hidden;
+  .title {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-right: 0px;
+  }
+
+  .tagline {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-right: 0px;
+  }
 }
 
 #forkme_banner {
   display: block;
   position: absolute;
   top:0;
-  right: 10px;
+  left: 75px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') $gray_bg no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -287,32 +344,54 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
-}
-
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  background: $blue_header_bg;
+  border-bottom-style: solid;
+  border-bottom-color: $gray_font;
+  border-bottom-width: 1px;
 }
 
 #project_title {
   margin: 0;
   color: #fff;
+  font-family: $roboto;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  position: relative;
+  .capital {
+    display: inline;
+    font-size: 48px;
+  }
+  h1 {
+    margin-bottom: 0px;
+  }
 }
 
-#project_tagline {
+.project_tagline {
   color: #fff;
   font-size: 24px;
+  font-family: $roboto;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  position: relative;
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+
+  margin-top: -15px;
+  margin-bottom: 0px;
+  .glyphicon-record {
+    font-size: 8px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .small-break {
+    display: none;
+  }
 }
 
 #downloads {
@@ -356,8 +435,62 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
+  margin: 25px 50px 25px 50px;
+
+  h2 {
+    text-transform: uppercase;
+    color: $gray_font;
+    letter-spacing: 1.5px;
+    font-size: 23px;
+    margin-bottom: 0px;
+    .capital {
+      font-size: 30px;
+      display: inline;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    .capital {
+      display: inline;
+      font-size: 21px;
+    }
+  }
+
+  h5 {
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 300;
+  }
+
+  .glyphicon-menu-down {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .glyphicon-menu-up {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .row {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 #main_content {
@@ -365,7 +498,23 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: $blue_header_bg;
+  border-top-style: solid;
+  border-top-color: $gray_font;
+  border-top-width: 1px;
+
+  text-align: center;
+  font-family: $roboto;
+  margin: 0px 0px 0px 0px;
+  margin-top: 25px;
+  width: 100%;
+  .inner {
+    padding: 0px 0px 0px 0px;
+  }
+
+  p {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 
@@ -374,7 +523,7 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
   body {
     font-size:14px;
   }
@@ -389,7 +538,26 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+    float: none;
+    font-size: 32px;
+    text-align: center;
+    .capital {
+      font-size: 38px;
+    }
+  }
+
+  #project_tagline {
+    text-align: center;
+    display: block;
+    float: none;
+    padding-top: 10px;
+    .glyphicon-record {
+      display: none;
+    }
+    .small-break {
+      display: inline;
+    }
+
   }
 
   h1 {

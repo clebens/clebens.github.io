@@ -1,0 +1,34 @@
+  <div class="row">
+  <h2><div class="capital">E</div>ducation</h2>
+  </div>
+
+  {% for school in site.data.education %}
+  <div class="row">
+   <div class="col-sm-3">
+      <h3>{{ school.date }}</h3>
+    </div>
+    <div class="col-sm-8">
+      <h4>{{ school.name }}</h4>
+      <h5>{{school.title}}</h5>
+    </div>
+    <div class="col-sm-1">
+      <div id="{{school.prefix}}-show" class="glyphicon glyphicon-menu-down"></div>
+      <div id="{{school.prefix}}-hide" class="glyphicon glyphicon-menu-up"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-9">
+      <div id="{{school.prefix}}-details">
+      {{ school.details }}
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+        $(document).ready( function() {
+          setup_display_toggle("{{ school.prefix }}");
+        });
+  </script>
+
+  {% endfor %}
