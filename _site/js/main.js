@@ -1,9 +1,5 @@
 $(document).ready( function() {
 
-    $('.first_school').trigger('click');
-    $('.first_job').trigger('click');
-
-
 });
 
 
@@ -39,7 +35,6 @@ $(document).ready( function() {
         var full_cap_words = ["PC", "LLO"];
 
         function capitalize_string(str) {
-            console.log(str);
             return str.split("").map(function(item) {
                 return '<div class="capital">' +
                     item +
@@ -48,8 +43,6 @@ $(document).ready( function() {
         }
 
         var small_cap_ary = str.split(" ").map(function(item) {
-
-            console.log(full_cap_words.indexOf(item.toUpperCase()))
 
             if (full_cap_words.indexOf(item.toUpperCase()) != -1)
                 return capitalize_string(item);
