@@ -1,0 +1,20 @@
+  <div class="row">
+  <h2><div class="capital">R</div>elevant <div class="capital">S</div>kills / <div class="capital">E</div>xperience</h2>
+  </div>
+
+  {% for language in site.data.languages %}
+  <div class="row">
+   <div class="col-sm-3">
+      <h3>{{ language.name }}</h3>
+    </div>
+    <div class="col-sm-8">
+      <ul class="language-details">
+        {% for detail in language.details %}
+        <li>{{detail}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+
+  {% endfor %}

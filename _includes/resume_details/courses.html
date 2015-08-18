@@ -1,0 +1,16 @@
+  <div class="row">
+  <h2><div class="capital">I</div>ndependent <div class="capital">C</div>oursework</h2>
+  </div>
+
+  {% for course in site.data.courses %}
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>{{ course.name }}</h3>
+    </div>
+    <div class="col-sm-9">
+      <div class="course-name">{{ course.details }}</div>
+    </div>
+
+  </div>
+
+  {% endfor %}

@@ -349,13 +349,14 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  margin: 25px 50px 25px 50px; }
+  margin: 15px 50px 25px 50px; }
   #main_content_wrap h2 {
     text-transform: uppercase;
     color: #3E3E3E;
     letter-spacing: 1.5px;
     font-size: 23px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    padding-top: 10px; }
     #main_content_wrap h2 .capital {
       font-size: 30px;
       display: inline; }
@@ -373,6 +374,11 @@ Full-Width Styles
     font-size: 16px;
     margin-top: 0px;
     font-weight: 300; }
+  #main_content_wrap h6 {
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 300;
+    color: #A73E3B; }
   #main_content_wrap .glyphicon-menu-down {
     margin-top: 25px;
     font-size: 16px;
@@ -407,6 +413,13 @@ Full-Width Styles
     padding: 0px 0px 0px 0px; }
   #footer_wrap p {
     margin: 0px 0px 0px 0px; }
+
+.language-details {
+  padding-top: 10px;
+  margin-bottom: 0px; }
+
+.course-name {
+  padding-top: 10px; }
 
 /*******************************************************************************
 Small Device Styles

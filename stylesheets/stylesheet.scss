@@ -435,7 +435,7 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  margin: 25px 50px 25px 50px;
+  margin: 15px 50px 25px 50px;
 
   h2 {
     text-transform: uppercase;
@@ -443,6 +443,7 @@ Full-Width Styles
     letter-spacing: 1.5px;
     font-size: 23px;
     margin-bottom: 0px;
+    padding-top:10px;
     .capital {
       font-size: 30px;
       display: inline;
@@ -468,6 +469,14 @@ Full-Width Styles
     font-size: 16px;
     margin-top: 0px;
     font-weight: 300;
+  }
+
+  h6 {
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 300;
+    color: $red_font;
+
   }
 
   .glyphicon-menu-down {
@@ -517,8 +526,14 @@ Full-Width Styles
   }
 }
 
+.language-details {
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
 
-
+.course-name {
+  padding-top: 10px;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/

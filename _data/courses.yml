@@ -1,0 +1,32 @@
+-   name: "Portland State University"
+    details: "ECE 372: Microprocessor Interfacing & Embedded Systems"
+
+-   name: "Portland State University"
+    details: "ECE 373: Embedded Operating Systems & Device Drivers"
+
+-   name: "EdX"
+    details: "Engineering Software as a Service, pts. 1 and 2 (UC Berkeley)"
+
+-   name: "Coursera"
+    details: "Automata (Stanford)"
+
+-   name: "Coursera"
+    details: "Cryptography I (Stanford)"
+
+-   name: "Coursera"
+    details: "Functional Programming Principles in Scala (EPFL)"
+-   name: "Coursera"
+    details: "Programming Languages (Univrsity of Washington)"
+
+-   name: "Coursera"
+    details: "Algorithms: Design & Analysis, Part 1 (Stanford)"
+-   name: "Coursera"
+    details: "Algorithms, Part I (Princeton)"
+-   name: "Coursera"
+    details: "Algorithms, Part II (Princeton)"
+-   name: "EdX"
+    details: "Artificial Intelligence (UC Berkeley)"
+-   name: "Coursera"
+    details: "Machine Learning (Stanford)"
+-   name: "Stanford Online"
+    details: "Databases – (Relational Databases and SQL: Foundations & Practice)"
