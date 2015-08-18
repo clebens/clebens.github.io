@@ -1,6 +1,12 @@
 $(document).ready( function() {
 
-    function setup_display_toggle(prefix) {
+
+
+});
+
+
+(function() {
+    setup_display_toggle = function(prefix) {
         $("#" + prefix + "-show").on("click", function() {
             $("#" + prefix + "-show").toggleClass("hidden");
             $("#" + prefix + "-hide").toggleClass("hidden");
@@ -16,7 +22,4 @@ $(document).ready( function() {
         $("#" + prefix + "-hide").toggleClass("hidden");
         $("#" + prefix + "-details").toggleClass("hidden");
     }
-
-    setup_display_toggle("mohrip");
-
-});
+})();

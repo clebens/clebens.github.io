@@ -2,10 +2,10 @@ $(document).ready( function() {
 
 
 
-
 });
 
-(function(){
+
+(function() {
     setup_display_toggle = function(prefix) {
         $("#" + prefix + "-show").on("click", function() {
             $("#" + prefix + "-show").toggleClass("hidden");
