@@ -15,12 +15,11 @@
     title: "Juris Doctor"
     details: ["Certificate in Intellectual Property Law",
                 "Curriculum focused on Patent, Copyright, Licensing, and other aspects of Intellectual Property law",
-                "Technology Committe Representative, Student Bar Association"]
+                "Technology Committee Representative, Student Bar Association"]
 
 -   prefix: "iowa_state"
     name: "Iowa State University"
     date: "2000-2005"
     title: "B.S., Computer Engineering"
-    details: ["Curriculum focused on combination of Software Development and Digital Logic design",
-                "Completed a fundamental Computer Science curriculum, including courses on Data Structures and Algorithms in C/C++",
-                "Completed fundamental Electrical Engineering curriculum, including Circuits and Signal Processing"]
+    details: ["GPA: 3.04/4.00, Deans List (GPA of 3.5 or higher) final two semesters",
+                "Completed curriculum focused on combination of Software Development and Digital Logic design, including:<ul><li>Foundational Computer Science coursework, including Data Structures and Algorithms courses using C/C++</li><li>Foundational Electrical Engineering coursework, including Circuits and Signal Processing courses</li></ul>"]
