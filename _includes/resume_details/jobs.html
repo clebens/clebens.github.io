@@ -1,5 +1,5 @@
   <div class="row">
-  <h2><div class="capital">P</div>rofessional <div class="capital">E</div>xperience</h2>
+  <h2><small-caps>Professional Experience</small-caps></h2>
   </div>
 
   {% assign first_job = true %}
@@ -13,7 +13,7 @@
         {% if first_job %}
           class="first-job"
           {% assign first_job = false %}
-        {% endif %}>{{ job.name }}</h4>
+        {% endif %}><small-caps>{{ job.name }}</small-caps></h4>
       <h5 id="{{job.prefix}}-title">{{job.title}}</h5>
     </div>
     <div class="col-sm-1">
@@ -37,18 +37,7 @@
   <script type="text/javascript">
         $(document).ready( function() {
           util.setup_display_toggle("{{ job.prefix }}");
-
-          /* Convert Names to Small Caps */
-           small_caps = util.small_caps(
-                  $("#{{job.prefix}}-name")
-                  .html()
-                  .trim());
-
-           $("#{{job.prefix}}-name").html(small_caps);
-
         });
-
-
   </script>
 
   {% endfor %}

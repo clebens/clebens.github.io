@@ -1,10 +1,18 @@
-$(document).ready( function() {
-
-});
-
-
 (function() {
     util = {};
+
+    /* Include function for Other Project Files (NOT DEPENDENCEIS) */
+    var include = function(filename) {
+        var head = document.getElementsByTagName('head')[0];
+
+        var script = document.createElement('script');
+        script.src = filename;
+        script.type = 'text/javascript';
+
+        head.appendChild(script)
+    }
+
+    include("/js/smallcaps.js");
 
     util.setup_display_toggle = function(prefix) {
         $("#" + prefix + "-show").on("click", function() {
@@ -30,30 +38,8 @@ $(document).ready( function() {
         $("#" + prefix + "-details").toggleClass("hidden");
     };
 
-    util.small_caps = function(str) {
-
-        var full_cap_words = ["PC", "LLO"];
-
-        function capitalize_string(str) {
-            return str.split("").map(function(item) {
-                return '<div class="capital">' +
-                    item +
-                    '</div>';
-            }).join("");
-        }
-
-        var small_cap_ary = str.split(" ").map(function(item) {
-
-            if (full_cap_words.indexOf(item.toUpperCase()) != -1)
-                return capitalize_string(item);
-            else
-                return '<div class="capital">' +
-                    item[0] +
-                    '</div>' +
-                    item.substring(1);
-
-        });
-
-        return small_cap_ary.join(" ");
-    }
 })();
+
+$(document).ready( function() {
+
+});

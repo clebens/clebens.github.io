@@ -1,5 +1,5 @@
   <div class="row">
-  <h2><div class="capital">E</div>ducation</h2>
+  <h2><small-caps>Education</small-caps></h2>
   </div>
 
   {% assign first_school = true %}
@@ -14,7 +14,7 @@
           {% if first_school %}
             class="first-school"
             {% assign first_school = false %}
-          {% endif %}>{{ school.name }}</h4>
+          {% endif %}><small-caps>{{ school.name }}</small-caps></h4>
       <h5 id="{{school.prefix}}-title">{{school.title}}</h5>
     </div>
     <div class="col-sm-1">
@@ -36,16 +36,9 @@
   </div>
 
   <script type="text/javascript">
-        $(document).ready( function() {
-          util.setup_display_toggle("{{ school.prefix }}");
-
-          /* Convert Names to Small Caps */
-          small_caps = util.small_caps(
-                  $("#{{school.prefix}}-name")
-                  .html()
-                  .trim());
-          $("#{{school.prefix}}-name").html(small_caps);
-        });
+    $(document).ready( function() {
+        util.setup_display_toggle("{{ school.prefix }}");
+    });
   </script>
 
   {% endfor %}
