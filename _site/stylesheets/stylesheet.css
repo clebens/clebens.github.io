@@ -432,12 +432,22 @@ Small Device Styles
   body {
     font-size: 14px; }
 
+  #forkme_banner {
+    display: none; }
+
   #downloads {
     display: none; }
 
   .inner {
     min-width: 320px;
-    max-width: 480px; }
+    max-width: 480px;
+    margin-right: 0px; }
+    .inner #email {
+      width: 100%;
+      text-align: center; }
+    .inner #github {
+      width: 100%;
+      text-align: center; }
 
   #project_title {
     float: none;
@@ -455,6 +465,14 @@ Small Device Styles
       display: none; }
     #project_tagline .small-break {
       display: inline; }
+
+  .course-provider {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+
+  .course-name {
+    padding-top: 1px; }
 
   h1 {
     font-size: 28px; }
