@@ -1,3 +1,12 @@
+-   prefix: "swat_studios"
+	name: "SWAT Studios"
+	title: "Developer"
+	date: "2015-2017"
+	details: ["Full-stack development on a ASP.NET MVC C# backend and a frontend that implemented various Javascript libraries",
+				"Directed development to follow SOLID Principles and Testability",
+				"Helped develop service-oriented systems accessed through a REST interface",
+				"Worked with a variety of frontend technologies, inlcuding jQuery, Vue.js, Ember.js, Babel, and Typescript"] 
+
 -   prefix: "mohrip"
     name: "Mohr Intellectual Property Law Solutions"
     date: "2010-2014"
