@@ -8,7 +8,7 @@
    <div class="col-sm-3">
       <h3>{{ job.date }}</h3>
     </div>
-    <div class="col-sm-8"><h4
+    <div class="col-sm-8 hand-cursor"><h4
         id="{{job.prefix}}-name"
         {% if first_job %}
           class="first-job"
@@ -17,8 +17,8 @@
       <h5 id="{{job.prefix}}-title">{{job.title}}</h5>
     </div>
     <div class="col-sm-1">
-      <div id="{{job.prefix}}-show" class="glyphicon glyphicon-menu-down"></div>
-      <div id="{{job.prefix}}-hide" class="glyphicon glyphicon-menu-up"></div>
+      <div id="{{job.prefix}}-show" class="glyphicon glyphicon-menu-down hand-cursor"></div>
+      <div id="{{job.prefix}}-hide" class="glyphicon glyphicon-menu-up hand-cursor"></div>
     </div>
   </div>
   <div class="row">

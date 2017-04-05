@@ -496,3 +496,6 @@ Small Device Styles
     min-width: 320px;
     max-width: 480px;
     font-size: 11px; } }
+.hand-cursor {
+  cursor: pointer;
+  cursor: hand; }
