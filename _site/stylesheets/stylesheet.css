@@ -236,7 +236,7 @@ Full-Width Styles
   width: 100%; }
 
 .inner {
-  max-width: 1140px;
+  /* max-width: 1140px; */
   padding: 5px 0px 0px 0px;
   margin: 0px 75px 0px 0px;
   overflow: hidden; }
