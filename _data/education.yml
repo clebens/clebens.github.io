@@ -3,8 +3,8 @@
     date: "2014"
     title: "Javascript Full Stack Course"
     details: ["Learned to use a variety of Javascript libraries and tools, including: Node.JS, Express.JS, jQuery, Backbone.JS, Handlebars",
-                'Capstone Project: NBA Food Fight (<a href="http://bit.ly/nbaff">http://bit.ly/nbaff</a>)
-                    <ul>
+                'Capstone Project: NBA Food Fight (no longer operational, but source code available at <a href="https://github.com/ciaventures/NBA-Food-Fight">https://github.com/ciaventures/NBA-Food-Fight</a>)
+                    <ul class="sublist">
                         <li>Allows users to play along with in-arena awards at NBA games</li>
                         <li>Node.JS / Orchestrate (NoSQL) back-end, Backbone.js front-end</li>
                     </ul>']

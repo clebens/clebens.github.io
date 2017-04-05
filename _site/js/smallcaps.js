@@ -25,6 +25,7 @@
                 return capitalize_string(item, big_font);
             else if (no_cap_words.indexOf(item.toUpperCase()) != -1)
                 return item;
+
             else
                 return '<div style="' +
                     'font-size: ' + big_font + ';' +
