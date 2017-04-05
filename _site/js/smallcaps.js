@@ -6,6 +6,7 @@
     var small_caps = function(str, big_font) {
 
         var full_cap_words = ["PC", "LLO"];
+        var no_cap_words = ["AND"];
 
         function capitalize_string(str, big_font) {
             return str.split("").map(function(item) {
@@ -22,6 +23,8 @@
 
             if (full_cap_words.indexOf(item.toUpperCase()) != -1)
                 return capitalize_string(item, big_font);
+            else if (no_cap_words.indexOf(item.toUpperCase()) != -1)
+                return item;
             else
                 return '<div style="' +
                     'font-size: ' + big_font + ';' +
