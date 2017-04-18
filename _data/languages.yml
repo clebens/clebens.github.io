@@ -35,9 +35,4 @@
 -   name: "Java"
     details: ["Developed a variety of applications in both my B.S. degree program and through independent coursework"]
 
--   name: "SQL/Databases"
-    details: ["Experience writing relatively complex SQL queries",
-                "Developed app with a Node.JS API build on an Orchestrate database",
-                "Experience developing an Express.JS/MongoDB/Mongoose API"]
-
 
