@@ -9,7 +9,7 @@
                     </ul>",
 				"Helped steer development toward SOLID Principles and accepted Design Patterns to produce more modular, flexible code",
 				"Took measures to improve testability of legacy code, including managing application dependencies using the SimpleInjector Dependency Injection container library",
-				"Helped migrate architecture from a monolithic archictecture toward a Service-Oriented architecture interfaced via a REST API",
+				"Helped migrate from a monolithic architecture toward a Service-Oriented architecture interfaced via a REST API",
                 "Worked directly under lead developer and had strong influence on architectural development",
 				"Assisted with server administration via Azure Management Portal"] 
 
