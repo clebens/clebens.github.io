@@ -2,7 +2,7 @@
     name: "Portland Code School"
     date: "2014"
     title: "Javascript Full Stack Course"
-    details: ['Learned fundamentals of modern Full Stack Javascript development',
+    details: ['Learned fundamentals of modern Full Stack Javascript development',
 'Developed Capstone Project with a Node.js and Express.js backend and Backbone.js frontend']
 
 -   prefix: "lewis_and_clark"

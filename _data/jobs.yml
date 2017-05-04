@@ -2,11 +2,11 @@
     name: "SWAT Studios / AlphaPrep"
     title: "Developer"
     date: "2015-2017"
-    details: ['Full-stack development on a Learning Management System for standardized test preparation that dynamically generates practice materials (https://alphaprep.net)',
-'Backend development in C# .NET using .NET MVC and NancyFX',
-'Frontend development using a variety of Javascript libraries, including jQuery, Handlebars, Vue.js, and an internally-managed Javascript framework',
-'Followed SOLID Principles and Design Patterns to produce modular, testable code',
-'Helped migrate from a monolithic architecture toward a Service-Oriented architecture interfaced via a REST API'] 
+    details: ['Full-stack development on a Learning Management System for standardized test preparation that dynamically generates practice materials (https://alphaprep.net)',
+'Backend development in C# .NET using .NET MVC and NancyFX',
+'Frontend development using a variety of Javascript libraries, including jQuery, Handlebars, Vue.js, and an internally-managed Javascript framework',
+'Followed SOLID Principles and Design Patterns to produce modular, testable code',
+'Helped migrate from a monolithic architecture toward a Service-Oriented architecture interfaced via a REST API'] 
 
 -   prefix: "mohrip"
     name: "Mohr Intellectual Property Law Solutions"
