@@ -1,32 +1,33 @@
--   name: "Portland State University"
-    details: "ECE 372: Microprocessor Interfacing & Embedded Systems"
+-    name: 'Portland State University'
+     details: 'ECE 372: Microprocessor Interfacing and Embedded Systems'
 
--   name: "Portland State University"
-    details: "ECE 373: Embedded Operating Systems & Device Drivers"
+-    name: 'Portland State University'
+     details: 'ECE 373: Embedded Operating Systems and Device Drivers'
 
--   name: "EdX"
-    details: "Engineering Software as a Service, pts. 1 and 2 (UC Berkeley)"
+-    name: 'EdX'
+     details: 'Engineering Software as a Service, pts. 1 and 2 (UC Berkeley)'
 
--   name: "Coursera"
-    details: "Automata (Stanford)"
+-    name: 'Coursera'
+     details: 'Algorithms, Part I (Princeton)'
 
--   name: "Coursera"
-    details: "Cryptography I (Stanford)"
+-    name: 'Coursera'
+     details: 'Automata (Stanford)'
 
--   name: "Coursera"
-    details: "Functional Programming Principles in Scala (EPFL)"
--   name: "Coursera"
-    details: "Programming Languages (University of Washington)"
+-    name: 'Coursera'
+     details: 'Cryptography I (Stanford)'
 
--   name: "Coursera"
-    details: "Algorithms: Design & Analysis, Part 1 (Stanford)"
--   name: "Coursera"
-    details: "Algorithms, Part I (Princeton)"
--   name: "Coursera"
-    details: "Algorithms, Part II (Princeton)"
--   name: "EdX"
-    details: "Artificial Intelligence (UC Berkeley)"
--   name: "Coursera"
-    details: "Machine Learning (Stanford)"
--   name: "Stanford Online"
-    details: "Databases (Relational Databases and SQL: Foundations & Practice)"
+-    name: 'Coursera'
+     details: 'Functional Programming Principles in Scala (EPFL) '
+
+-    name: 'Coursera'
+     details: 'Programming Languages (University of Washington)'
+
+-    name: 'Coursera'
+     details: 'Algorithms: Design and Analysis, Parts 1 and 2 (Stanford) '
+
+-    name: 'Coursera'
+     details: 'Machine Learning (Stanford)'
+
+-    name: 'EdX'
+     details: 'Artificial Intelligence (UC Berkeley)'
+

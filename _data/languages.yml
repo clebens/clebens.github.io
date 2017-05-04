@@ -1,38 +1,37 @@
--   name: "C#"
-    details: ["Experience developing within a mature C# .NET MVC application",
-				"Utilitzed design patterns (including classic Gang of Four patterns) to improve the Modularity and Testability of the existing code",
-				"Developed a Service-Oriented API accessed through a NancyFX-based REST Interface and integrated it within an existing .NET MVC application"]
+-   name: "C#/.NET"
+    details: ['Developed on .NET MVC and NancyFX server frameworks',
+'Implemented persistence logic with the EntityFramework and Dapper ORMs',
+'Developed unit tests / mocks with both the MS Unit Test Framework and NUnit',
+'Persisted data in Azure Storage Tables, Blobs, and Message Queues',
+'Used other common .NET libraries, including JSON.NET and AutoMapper']
 
 -   name: "SQL / Databases"
-    details: ["Designed queries that request data from multiple tables in a SQL database to efficiently handle web requests",
-				"Integrated a SQL Server Database with a C# backend application via multiple ORMs, including Dapper and Entity Framework",
-				"Experience working with the MongoDB and the official .NET MongoDB library to build a prototype feature schema"]
+    details: ['Integrated a SQL Server Database with a C# backend application via multiple ORMs, including Dapper and Entity Framework',
+'Experience working with the MongoDB and the official .NET MongoDB library to build a prototype for a complex new feature']
 
 -   name: "Javascript"
-    details: ["Developed a prototype Vue.js-based Infrastructure for a front-end application built to communicate with our REST API, including developing a Vue plugin to efficiently handle API requests from within our application",
-				"Worked with a variety of frontend frameworks and libraries, including jQuery, Vue.js, Ember.js, and an in-house Javascript library built and managed internally by SWAT Studios developers",
-				"Backend development with Node.JS and Express.JS, including using Gulp to manage frontend build tasks",
-                "Frontend development with jQuery and Backbone.JS"]
-
--   name: "C / C++"
-    details: ["Worked with C / C++ extensively in core computer science courses during my undergraduate education",
-        "Developed device drivers for an embedded linux system",
-        "Worked with pointers, memory manipulation, and hardware addressing"]
-
--   name: "Linux / Unix Command Line"
-    details: ["Worked with Unix-based systems for 15+ years", "Strong familiarity with common command-line tools and simple Bash shell scripting"]
-
--   name: "Ruby / Rails"
-    details: ["Completed coursework in Engineering Software as a Service (SaaS) through EdX, with assignments covering Ruby on Rails, Cucumber, and RSpec",
-                "Contributed to Feedbin, an open source RSS reader built on Rails"]
-
--   name: "Python"
-    details: ["Developed applications in online coursework, Cryptography I through Coursera and Artificial Intelligence through EdX"]
+    details: ['Developed a Vue.js-based Infrastructure to support future development on mature application',
+'Worked with a variety of frontend frameworks and libraries, including jQuery, Vue.js, Backbone.js, and an in-house Javascript framework (at SWAT Studios)',
+'Backend development in Node.JS and Express.JS']
 
 -   name: "Scala"
     details: ["Developed functional programs in coursework in Functional Programming Principles in Scala through Coursera", "Additional functional programming experience in SML and Racket in the Programming Languages course on Coursera"]
 
 -   name: "Java"
     details: ["Developed a variety of applications in both my B.S. degree program and through independent coursework"]
+
+-   name: "C / C++"
+    details: [ "Developed device drivers for an embedded linux system in coursework",
+        "Worked with pointers, memory manipulation, and hardware addressing"]
+
+-   name: "Assembly"
+    details: ["Developed application for controlling embedded ARM-based device and serially-connected peripherals"]
+
+-   name: "Ruby / Rails"
+    details: ["Completed coursework covering Ruby on Rails, Cucumber, and RSpec "]
+
+-   name: "Python"
+    details: ["Completed coursework including assignments using PyCrypto and gmpy2"]
+
 
 
