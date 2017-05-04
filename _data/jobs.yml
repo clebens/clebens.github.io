@@ -2,36 +2,27 @@
     name: "SWAT Studios / AlphaPrep"
     title: "Developer"
     date: "2015-2017"
-    details: ["Full-stack development on a Learning Management System for standardized test prep that uses statistical analysis to tailor test content to a student's current knowledge level (<a href=\"https://alphaprep.net\">https://alphaprep.net</a>)
-                    <ul class=\"sublist\">
-                        <li>Backend development in C# .NET, using the .NET MVC and NancyFX frameworks</li>
-                        <li>Frontend development using a variety of Javascript libraries, including jQuery, Handlebars, Vue.js, and an internally-managed Javascript framework</li>
-                    </ul>",
-				"Helped steer development toward SOLID Principles and accepted Design Patterns to produce more modular, flexible code",
-				"Took measures to improve testability of legacy code, including managing application dependencies using the SimpleInjector Dependency Injection container library",
-				"Helped migrate from a monolithic architecture toward a Service-Oriented architecture interfaced via a REST API",
-                "Worked directly under lead developer and had strong influence on architectural development",
-				"Assisted with server administration via Azure Management Portal"] 
+    details: ['Full-stack development on a Learning Management System for standardized test preparation that dynamically generates practice materials (https://alphaprep.net)',
+'Backend development in C# .NET using .NET MVC and NancyFX',
+'Frontend development using a variety of Javascript libraries, including jQuery, Handlebars, Vue.js, and an internally-managed Javascript framework',
+'Followed SOLID Principles and Design Patterns to produce modular, testable code',
+'Helped migrate from a monolithic architecture toward a Service-Oriented architecture interfaced via a REST API'] 
 
 -   prefix: "mohrip"
     name: "Mohr Intellectual Property Law Solutions"
     date: "2010-2014"
     title: "Patent Attorney"
     details: ["USPTO Registration No. 59,781",
-                "Licensed in Oregon and California",
-                "Helped clients secure rights in Patent, Trademark, and Copyright, including for software-based inventions",
-                "Worked with small businesses to help secure Intellectual Property rights"]
+                "Helped clients secure rights in Patent, Trademark, and Copyright, including for software-based inventions"]
 
 -   prefix: "fraser_stryker"
     name: "Fraser Stryker PC LLO"
     date: "Summer 2007"
     title: "Summer Associate"
-    details: ["Worked on a variety of civil matters in a 50+ attorney firm, including transactional and litigation support",
-            "Researched a wide range of legal issues using standard legal research tools, such as Westlaw and LexisNexis"]
+    details: []
 
 -   prefix: "nadler_brothers"
     name: "Nadler Brothers Company"
     date: "2003-2005"
     title: "IT Specialist"
-    details: ["Entrusted with total responsibility for any and all IT-related issues",
-                "Installed and administered Linux gateway and e-mail server"]
+    details: []
