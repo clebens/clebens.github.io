@@ -2,24 +2,17 @@
     name: "Portland Code School"
     date: "2014"
     title: "Javascript Full Stack Course"
-    details: ["Learned to use a variety of Javascript libraries and tools, including: Node.JS, Express.JS, jQuery, Backbone.JS, Handlebars",
-                'Capstone Project: NBA Food Fight (no longer operational, but source code available at <a href="https://github.com/ciaventures/NBA-Food-Fight">https://github.com/ciaventures/NBA-Food-Fight</a>)
-                    <ul class="sublist">
-                        <li>Allows users to play along with in-arena awards at NBA games</li>
-                        <li>Node.JS / Orchestrate (NoSQL) back-end, Backbone.js front-end</li>
-                    </ul>']
+    details: ['Learned fundamentals of modern Full Stack Javascript development',
+'Developed Capstone Project with a Node.js and Express.js backend and Backbone.js frontend']
 
 -   prefix: "lewis_and_clark"
     name: "Lewis and Clark Law School"
     date: "2005-2008"
     title: "Juris Doctor"
-    details: ["Certificate in Intellectual Property Law",
-                "Curriculum focused on Patent, Copyright, Licensing, and other aspects of Intellectual Property law",
-                "Technology Committee Representative, Student Bar Association"]
+    details: ["Certificate in Intellectual Property Law"]
 
 -   prefix: "iowa_state"
     name: "Iowa State University"
     date: "2000-2005"
     title: "B.S., Computer Engineering"
-    details: ["GPA: 3.04/4.00, Deans List (GPA of 3.5 or higher) final two semesters",
-                "Completed curriculum focused on combination of Software Development and Digital Logic design, including:<ul><li>Foundational Computer Science coursework, including Data Structures and Algorithms courses using C/C++</li><li>Foundational Electrical Engineering coursework, including Circuits and Signal Processing courses</li></ul>"]
+    details: ["GPA: 3.04/4.00 - Deans List (GPA of 3.5 or higher) final two semesters"]
